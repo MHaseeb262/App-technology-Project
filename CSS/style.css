@@ -82,7 +82,7 @@ nav {
 /* banner Container Start  */
 .banner {
     padding: 11% 0 0;
-    background-image: url("Image/background.svg");
+    background-image: url("/Image/background.svg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -296,7 +296,7 @@ footer,
 .client-matter-col-02 {
     min-width: 50%;
     height: 363px;
-    background-image: url("Image/video-img.svg");
+    background-image: url("/Image/video-img.svg");
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -360,19 +360,19 @@ footer,
 }
 
 .bg-cover1 {
-    background-image: url("Image/product-cover.svg");
+    background-image: url("/Image/product-cover.svg");
 }
 
 .bg-cover2 {
-    background-image: url("Image/product-cover2.svg");
+    background-image: url("/Image/product-cover2.svg");
 }
 
 .bg-cover3 {
-    background-image: url("Image/product-cover3.svg");
+    background-image: url("/Image/product-cover3.svg");
 }
 
 .bg-cover4 {
-    background-image: url("Image/product-cover4.svg");
+    background-image: url("/Image/product-cover4.svg");
 }
 
 .frame {
