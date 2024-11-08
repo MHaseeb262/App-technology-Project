@@ -77,6 +77,10 @@ nav {
     color: #FFFFFF;
 }
 
+.bar-icon {
+    display: none;
+}
+
 /* navigation bar End  */
 /* Header styling End  */
 
@@ -247,18 +251,20 @@ footer {
 
 .study-row,
 .client-matter-row {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .study-img {
-    min-width: 50%;
+    width: 45%;
     cursor: pointer;
 }
 
 .watch-courses,
 .client-matter-col-01 {
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -301,7 +307,7 @@ footer {
 
 /* Client Matters Section start */
 .client-matter-col-02 {
-    min-width: 50%;
+    width: 45%;
     height: 363px;
     background-image: url("/Image/video-img.svg");
     background-size: cover;
@@ -970,7 +976,7 @@ footer {
     .banner-sec {
         max-width: 590px;
         width: 95%;
-        gap: 1.2rem;
+        gap: 1rem;
     }
 
     .banner-sec h5 {
@@ -1256,7 +1262,7 @@ footer {
     }
 
     .course-btn {
-        width: 166px;
+        width: 153px;
         height: 35px;
     }
 
@@ -1388,3 +1394,130 @@ footer {
 }
 
 /* Media Queries for Tablets End */
+
+/* Media Queries for Mobile start */
+@media only screen and (max-width: 599px) {
+
+    /* Navbar start */
+    nav {
+        max-width: 700px;
+        width: 95%;
+        padding: 8px 0;
+        justify-content: space-between;
+    }
+
+    .brand-name h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .nav-links,
+    .nav-join {
+        display: none;
+    }
+
+    .bar-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bar-icon img{
+        width: 18px;
+        height: 10px;
+    }
+
+    /* Navbar End */
+
+    /* Banner Section start */
+    .banner-btn-txt,
+    .book-txt,
+    .sel-sec h6,
+    .book-btn-txt,
+    .row2-head,
+    .price-per-month,
+    .updates,
+    .course-btn-txt {
+        font-size: 7px;
+        font-weight: 600;
+    }
+
+    .banner-sec {
+        max-width: 390px;
+        width: 95%;
+        padding: 11% 0 0;
+        gap: 0.5rem;
+    }
+
+    .banner-sec h5 {
+        display: none;
+    }
+
+    .banner-sec h1 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .banner-sec h4 {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .banner-join-btn {
+        width: 55px;
+        height: 24px;
+    }
+
+    /* Banner Section End */
+
+    /* Feature Section start */
+    .features {
+        min-height: 249px;
+    }
+
+    .features-sec {
+        max-width: 590px;
+        width: 95%;
+        gap: 20px;
+    }
+
+    .features-sec-card {
+        padding: 1.2rem;
+        gap: 1rem;
+    }
+
+    .features-sec-icon {
+        width: 45px;
+        height: 50px;
+    }
+
+    .features-sec-icon img {
+        width: 21px;
+        height: 21px;
+    }
+
+    .features-sec-card h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .line {
+        width: 40px;
+        height: 2px;
+    }
+
+    .main-para {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
+    .active-card h3 {
+        font-size: 14px;
+    }
+
+    /* Feature Section End */
+
+}
+
+/* Media Queries for Mobile End */
