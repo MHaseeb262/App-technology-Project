@@ -85,7 +85,7 @@ nav {
 
 /* banner Container Start  */
 .banner {
-    padding: 11% 0 0;
+    padding: 8vw 0 0;
     background-image: url("/Image/background.svg");
     background-size: cover;
     background-position: center;
@@ -96,7 +96,7 @@ nav {
 .banner-sec {
     max-width: 1040px;
     width: 95%;
-    padding: 6.5% 0 0;
+    padding: 8vw 0 0;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -1421,7 +1421,7 @@ footer {
     .banner-sec {
         max-width: 390px;
         width: 95%;
-        padding: 11% 0 0;
+        padding: 8vw 0 0;
         gap: 0.5rem;
         position: relative;
     }
@@ -1444,16 +1444,12 @@ footer {
         width: 55px;
         height: 24px;
         position: absolute;
-        bottom: -50%;
+        bottom: -40%;
     }
 
     /* Banner Section End */
 
     /* Feature Section start */
-    .features {
-        min-height: 249px;
-    }
-
     .features-sec {
         max-width: 390px;
         width: 95%;
@@ -1461,10 +1457,11 @@ footer {
         gap: 20px;
         position: relative;
         flex-direction: column;
+        align-items: center;
     }
 
     .features-sec-card {
-        max-width: 100%;
+        max-width: 80%;
         padding: 1.2rem;
         gap: 1rem;
         box-shadow: 0 13px 19px 6px rgba(00, 00, 00, 8%);
@@ -1511,17 +1508,16 @@ footer {
     .study-row {
         display: flex;
         flex-direction: column;
-        align-items: start;
     }
 
     .study-img {
-        width: 100%;
+        width: 80%;
         margin: 0 0 11%;
     }
 
     .watch-courses,
     .client-matter-col-01 {
-        width: 100%;
+        width: 80%;
         gap: 1.2rem;
     }
 
@@ -1553,12 +1549,11 @@ footer {
 
     /* Client-Matter Section Start */
     .client-matter-row {
-        align-items: start;
         flex-direction: column-reverse;
     }
 
     .client-matter-col-02 {
-        min-width: 100%;
+        min-width: 80%;
         height: 243px;
         margin: 0 0 11%;
     }
@@ -1578,13 +1573,14 @@ footer {
     /* Get Education section start  */
     .get-edu-col {
         gap: 3rem;
+        align-items: center;
     }
 
     .get-edu-row1,
     .course-row1,
     .teach-row1 {
         gap: 0.5rem;
-        max-width: 100%;
+        max-width: 80%;
     }
 
     .title,
@@ -1600,11 +1596,11 @@ footer {
     .get-edu-activities {
         gap: 1rem;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .activity {
-        width: 46%;
+        width: 45%;
     }
 
     .frame {
@@ -1670,14 +1666,15 @@ footer {
     /* Populer courses section start  */
     .course-container {
         gap: 53px;
+        align-items: center;
     }
 
     .course-row2 {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .card {
-        width: 100%;
+        width: 90%;
     }
 
     .row2-card {
@@ -1750,9 +1747,11 @@ footer {
     /* Expert instructor section start  */
     .teach-container {
         gap: 64px;
+        align-items: center;
     }
 
     .teach-row2 {
+        width: 80%;
         flex-direction: column;
         gap: 60px;
     }
