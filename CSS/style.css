@@ -781,14 +781,14 @@ footer {
 }
 
 .register-row2 {
+    width: 70%;
     display: flex;
     position: relative;
 }
 
 .register-email {
-    width: 613px;
+    width: 84%;
     height: 58px;
-    padding: 15px 591px 15px 20px;
     border: 1px solid #E6E6E6;
     border-right: none;
     border-radius: 5px 0 0 5px;
@@ -807,7 +807,7 @@ footer {
 }
 
 .submit-email {
-    width: 117px;
+    width: 16%;
     height: 58px;
     background-color: #ff6551;
     display: flex;
@@ -1301,9 +1301,7 @@ footer {
     }
 
     .register-email {
-        width: 408px;
         height: 38px;
-        padding: 10px 408px 10px 14px;
     }
 
     .mail-txt {
@@ -1314,7 +1312,6 @@ footer {
     }
 
     .submit-email {
-        width: 78px;
         height: 38px;
     }
 
@@ -1745,7 +1742,8 @@ footer {
     .new-course {
         width: 64px;
         height: 64px;
-        top: 0;
+        top: 2px;
+        right: -7px;
     }
     /* Populer courses section End  */
 
@@ -1804,10 +1802,12 @@ footer {
         gap: 0.75rem;
     }
 
+    .register-row2{
+        width: 100%;
+    }
+
     .register-email {
-        width: 353px;
         height: 38px;
-        padding: 10px 338px 10px 14px;
     }
 
     .mail-txt {
@@ -1818,7 +1818,6 @@ footer {
     }
 
     .submit-email {
-        width: 78px;
         height: 38px;
     }
 
