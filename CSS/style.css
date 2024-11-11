@@ -12,7 +12,7 @@ header {
     z-index: 1000;
 }
 
-/* navigation bar Start  */
+/* Desktop navigation bar Start  */
 nav {
     max-width: 1150px;
     width: 100%;
@@ -31,7 +31,7 @@ nav {
 }
 
 .nav-links {
-    padding: 0 0 0 11%;
+    padding-left: 11%;
     flex: 1 1 auto;
 }
 
@@ -42,7 +42,9 @@ nav {
 }
 
 .nav-links ul li a,
-.nav-join a {
+.mobile-nav-links ul li a,
+.nav-join a,
+.mobile-nav-join a {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -66,6 +68,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     background-color: #FF6551;
+    cursor: pointer;
 }
 
 .join-btn-txt {
@@ -80,7 +83,21 @@ nav {
     display: none;
 }
 
-/* navigation bar End  */
+/* Desktop navigation bar End  */
+
+/* Mobile nav start */
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #737373;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Mobile nav End */
 /* Header styling End  */
 
 /* banner Container Start  */
@@ -920,6 +937,12 @@ footer {
 
 /* footer end  */
 
+@media only screen and (min-width: 900px) {
+    .mobile-nav {
+        display: none !important;
+    }
+}
+
 /* Media Queries for Tablets start */
 @media only screen and (min-width: 600px) and (max-width: 899px) {
 
@@ -964,6 +987,10 @@ footer {
     .course-btn-txt {
         font-size: 9px;
         font-weight: 600;
+    }
+
+    .mobile-nav {
+        display: none !important;
     }
 
     /* Navbar End */
@@ -1558,12 +1585,12 @@ footer {
         margin: 0 0 11%;
     }
 
-    .pause-btn{
+    .pause-btn {
         width: 71px;
         height: 71px;
     }
 
-    .pause-btn img{
+    .pause-btn img {
         width: 15px;
         height: 16px;
     }
@@ -1706,10 +1733,10 @@ footer {
         font-size: 32px;
     }
 
-    .row2-card p{
+    .row2-card p {
         font-size: 11px;
         font-weight: 500;
-        line-height: 24px;        
+        line-height: 24px;
     }
 
     .course-features {
@@ -1742,6 +1769,7 @@ footer {
         top: 2px;
         right: -7px;
     }
+
     /* Populer courses section End  */
 
     /* Expert instructor section start  */
@@ -1770,7 +1798,7 @@ footer {
         gap: 10px
     }
 
-    .teach-intro p{
+    .teach-intro p {
         font-size: 11px;
         font-weight: 500;
         line-height: 16px;
@@ -1801,7 +1829,7 @@ footer {
         gap: 0.75rem;
     }
 
-    .register-row2{
+    .register-row2 {
         width: 100%;
     }
 
@@ -1833,7 +1861,7 @@ footer {
         padding: 17px 0;
     }
 
-    .info-row{
+    .info-row {
         flex-direction: column;
     }
 
@@ -1854,7 +1882,7 @@ footer {
         align-items: center;
     }
 
-    .info-sec-05{
+    .info-sec-05 {
         align-items: start;
     }
 
@@ -1889,6 +1917,96 @@ footer {
     }
 
     /* footer End  */
+
+    /* Mobile menu navigation start  */
+    /* .mobile-nav {
+        display: flex;
+        flex-direction: column;
+        background-color: #737373;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: none;
+    } */
+
+    .cross-icon {
+        display: flex;
+        justify-content: end;
+        padding: 8px 11px 0 0;
+    }
+
+    .cross-icon img {
+        width: 20px;
+        height: 12px;
+    }
+
+    .mobile-nav-join {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 41px 0 21px;
+    }
+
+    .mobile-nav-join a:hover {
+        color: #ff6551;
+        transition: color 0.5s ease;
+    }
+
+    .join-btn {
+        position: absolute;
+        bottom: 35%;
+        background-color: transparent;
+        border-color: #FAFAFA;
+        transition: background-color 0.5s ease, border-color 0.5s ease;
+    }
+
+    .join-btn-txt {
+        transform: translateX(12px);
+    }
+
+    .join-btn img {
+        opacity: 0;
+        transform: translateX(-30px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .join-btn:hover {
+        background-color: #ff6551;
+        border-color: black;
+    }
+
+    .join-btn:hover .join-btn-txt {
+        transform: translateX(0px);
+        transition: transform 0.5s ease;
+    }
+
+    .join-btn:hover img {
+        display: inline;
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    .mobile-nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-nav-links ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+    }
+
+    .mobile-nav-links ul li {
+        margin: 21px 0;
+    }
+
+    /* Mobile menu navigation End  */
 }
 
 /* Media Queries for Mobile End */
