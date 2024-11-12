@@ -612,7 +612,7 @@ footer {
 }
 
 .row2-card {
-    padding: 2.5rem 2rem;
+    padding: 2.5rem 1.5rem;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -662,13 +662,16 @@ footer {
 }
 
 .course-features {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
 .feature-item {
+
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -695,7 +698,7 @@ footer {
 }
 
 .course-btn {
-    width: 250px;
+    width: 100%;
     height: 52px;
     border: none;
     border-radius: 5px;
@@ -707,7 +710,7 @@ footer {
 }
 
 .try-btn {
-    width: 162px !important;
+    width: 77% !important;
 }
 
 .course-btn-txt {
@@ -804,7 +807,7 @@ footer {
 }
 
 .register-email {
-    width: 84%;
+    width: 80%;
     height: 58px;
     border: 1px solid #E6E6E6;
     border-right: none;
@@ -824,7 +827,7 @@ footer {
 }
 
 .submit-email {
-    width: 16%;
+    width: 20%;
     height: 58px;
     background-color: #ff6551;
     display: flex;
@@ -855,8 +858,7 @@ footer {
 
 .info-row {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    width: 90%;
 }
 
 .info-col {
@@ -953,8 +955,8 @@ footer {
     }
 
     .brand-name h3 {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 700;
     }
 
     .nav-links ul {
@@ -963,7 +965,7 @@ footer {
 
     .nav-links ul li a,
     .nav-join a {
-        font-size: 9.5px;
+        font-size: 11px;
         font-weight: 600;
     }
 
@@ -972,21 +974,16 @@ footer {
     }
 
     .join-btn {
-        width: 89px;
-        height: 35px;
+        width: 91px;
+        height: 37px;
     }
 
     .join-btn-txt,
-    .banner-btn-txt,
-    .book-txt,
-    .sel-sec h6,
-    .book-btn-txt,
+    .banner-btn-txt
     .row2-head,
     .price-per-month,
-    .updates,
     .course-btn-txt {
-        font-size: 9px;
-        font-weight: 600;
+        font-size: 11px;
     }
 
     .mobile-nav {
@@ -1003,18 +1000,16 @@ footer {
     }
 
     .banner-sec h5 {
-        font-weight: 600;
-        font-size: 10.5px
+        font-size: 12px
     }
 
     .banner-sec h1 {
-        font-weight: 600;
         font-size: 30px;
     }
 
     .banner-sec h4 {
-        font-size: 13px;
-        font-weight: 300;
+        font-size: 14px;
+        font-weight: 400;
     }
 
     .banner-join-btn {
@@ -1052,17 +1047,16 @@ footer {
 
     .features-sec-card h3 {
         font-size: 16px;
-        font-weight: 600;
     }
 
     .line {
-        width: 40px;
+        width: 45px;
         height: 2px;
     }
 
     .main-para {
-        font-size: 10px;
-        font-weight: 400;
+        font-size: 11px;
+        font-weight: 500;
         line-height: 14px;
     }
 
@@ -1090,7 +1084,6 @@ footer {
 
     .main-heading {
         font-size: 26px;
-        font-weight: 600;
     }
 
     .learn-more {
@@ -1098,13 +1091,13 @@ footer {
     }
 
     .learn-more h6 {
-        font-size: 9.5px;
-        font-weight: 600;
+        font-size: 11px;
+        font-weight: 700;
     }
 
     .learn-more img {
-        width: 6px;
-        height: 10px;
+        width: 8px;
+        height: 12px;
     }
 
     /* Study Scheme Section End */
@@ -1138,87 +1131,68 @@ footer {
         gap: 0.5rem;
     }
 
-    .title,
-    .btn-txt {
-        font-size: 9.5px;
-        font-weight: 600;
+    .title {
+        font-size: 11px;
     }
 
     .get-edu-row1 h2 {
         line-height: 35px;
     }
 
+    .get-edu-activities{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 12px;
+    }
+
+    .activity{
+        width: 37%;
+    }
+
     .frame {
-        height: 200px;
+        height: 295px;
         padding: 1em 0.8em;
         background-size: cover;
         background-position: center;
     }
 
-    .sell-btn {
-        width: 38px;
-        height: 16px;
-    }
-
-    .product-actions {
-        gap: 8px;
-    }
-
-    .product-actions img {
-        width: 28px;
-        height: 26px;
-    }
-
     .frame2 {
         padding: 0.8rem 0.5rem 1.5rem;
-        gap: 0.5rem;
+        /* gap: 0.5rem; */
     }
 
     .book-reating {
-        width: 37px;
-        height: 17px;
+        width: 41px;
+        height: 21px;
     }
 
     .book-reating img {
-        width: 10px;
-        height: 11px;
+        width: 12px;
+        height: 13px;
     }
 
     .reating-txt {
-        font-size: 8px;
-    }
-
-    .frame2-head {
         font-size: 10px;
     }
 
+    .frame2-head {
+        font-size: 13px;
+    }
+
     .frame2 p {
-        font-size: 9.5px;
+        font-size: 12px;
+        font-weight: 500;
         line-height: 0.8rem;
-    }
-
-    .sel-sec {
-        gap: 0.675rem;
-    }
-
-    .sel-sec img {
-        width: 11px;
-        height: 10px;
     }
 
     .book-price1,
     .book-price2 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .btn-sec {
-        width: 98px;
-        height: 26px;
-    }
-
-    .btn-sec img {
-        width: 7px;
-        height: 10px;
+        width: 121px;
+        height: 33px;
     }
 
     /* Get Education section End  */
@@ -1252,6 +1226,10 @@ footer {
         font-size: 16px;
     }
 
+    .row2-head{
+        font-size: 12px;
+    }
+
     .course-price-sec h2 {
         font-size: 26px;
     }
@@ -1274,13 +1252,12 @@ footer {
         height: 7px;
     }
 
-    .course-btn {
-        width: 153px;
-        height: 35px;
+    .updates{
+        font-size: 9px;
     }
 
-    .try-btn {
-        width: 108px !important;
+    .course-btn {
+        height: 35px;
     }
 
     /* Populer courses section End  */
@@ -1304,16 +1281,16 @@ footer {
     }
 
     .reating img {
-        width: 16px;
-        height: 16px;
+        width: 18px;
+        height: 18px;
     }
 
     .teach-intro h5 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .teach-intro h6 {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     /* Expert instructor section End  */
@@ -1328,22 +1305,22 @@ footer {
     }
 
     .register-email {
-        height: 38px;
+        height: 40px;
     }
 
     .mail-txt {
-        top: 13px;
-        left: 14px;
-        font-size: 9px;
+        top: 14px;
+        left: 15px;
+        font-size: 10px;
         font-weight: 500;
     }
 
     .submit-email {
-        height: 38px;
+        height: 40px;
     }
 
     .submit-btn-txt {
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 500;
     }
 
@@ -1360,7 +1337,7 @@ footer {
     }
 
     .info-col h5 {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .info-sec,
@@ -1388,7 +1365,7 @@ footer {
     }
 
     .social-txt h6 {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .social-links {
@@ -1396,8 +1373,8 @@ footer {
     }
 
     .social-links img {
-        width: 16px;
-        height: 16px;
+        width: 18px;
+        height: 18px;
     }
 
     /* footer End  */
@@ -1417,8 +1394,8 @@ footer {
     }
 
     .brand-name h3 {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 700;
     }
 
     .nav-links,
@@ -1433,17 +1410,13 @@ footer {
     }
 
     .bar-icon img {
-        width: 18px;
-        height: 10px;
+        width: 21px;
+        height: 12px;
     }
 
     /* Navbar End */
 
     /* Banner Section start */
-    .banner-btn-txt {
-        font-size: 7px;
-        font-weight: 600;
-    }
 
     .banner-sec {
         max-width: 390px;
@@ -1458,20 +1431,22 @@ footer {
     }
 
     .banner-sec h1 {
-        font-weight: 600;
         font-size: 25px;
     }
 
     .banner-sec h4 {
         font-size: 10px;
-        font-weight: 300;
     }
 
     .banner-join-btn {
-        width: 55px;
-        height: 24px;
+        width: 60px;
+        height: 30px;
         position: absolute;
         bottom: -40%;
+    }
+
+    .banner-btn-txt {
+        font-size: 7px;
     }
 
     /* Banner Section End */
@@ -1488,40 +1463,38 @@ footer {
     }
 
     .features-sec-card {
-        max-width: 80%;
-        padding: 1.2rem;
-        gap: 1rem;
+        max-width: 90%;
+        padding: 1.5rem;
         box-shadow: 0 13px 19px 6px rgba(00, 00, 00, 8%);
     }
 
     .features-sec-icon {
-        width: 45px;
-        height: 50px;
+        width: 50px;
+        height: 55px;
     }
 
     .features-sec-icon img {
-        width: 21px;
-        height: 21px;
+        width: 25px;
+        height: 25px;
     }
 
     .features-sec-card h3 {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 18px;
     }
 
     .line {
-        width: 40px;
+        width: 45px;
         height: 2px;
     }
 
     .main-para {
-        font-size: 11px;
-        font-weight: 500;
-        line-height: 14px;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
     }
 
     .active-card h3 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     /* Feature Section End */
@@ -1544,8 +1517,7 @@ footer {
 
     .watch-courses,
     .client-matter-col-01 {
-        width: 80%;
-        gap: 1.2rem;
+        width: 90%;
     }
 
     .line-icon {
@@ -1555,21 +1527,16 @@ footer {
 
     .main-heading {
         font-size: 26px;
-        font-weight: 600;
-    }
-
-    .learn-more {
-        gap: 6px;
+        line-height: 35px;
     }
 
     .learn-more h6 {
-        font-size: 9.5px;
-        font-weight: 600;
+        font-size: 12px;
     }
 
     .learn-more img {
-        width: 6px;
-        height: 10px;
+        width: 10px;
+        height: 12px;
     }
 
     /* Study Scheme Section End */
@@ -1606,19 +1573,16 @@ footer {
     .get-edu-row1,
     .course-row1,
     .teach-row1 {
-        gap: 0.5rem;
-        max-width: 80%;
+        max-width: 90%;
     }
 
-    .title,
-    .btn-txt {
-        font-size: 11px;
-        font-weight: 600;
+    .title {
+        font-size: 12px;
     }
 
-    .get-edu-row1 h2 {
+    /* .get-edu-row1 h2 {
         line-height: 35px;
-    }
+    } */
 
     .get-edu-activities {
         gap: 1rem;
@@ -1627,65 +1591,81 @@ footer {
     }
 
     .activity {
-        width: 45%;
+        width: 90%;
     }
 
     .frame {
-        height: 200px;
-        padding: 1em 0.8em;
+        height: 400px;
+        padding: 2em 1.8em;
         background-size: cover;
         background-position: center;
     }
 
     .sell-btn {
-        width: 45px;
-        height: 20px;
+        width: 70px;
+        height: 35px;
     }
 
-    .product-actions img {
-        height: 30px;
+    .btn-txt{
+        font-size: 15px;
     }
 
     .frame2 {
-        padding: 0.8rem 0.5rem 1.5rem;
-        gap: 0.5rem;
+        gap: 1.5rem; 
     }
 
-    .book-txt,
-    .reating-txt,
-    .sel-sec h6,
-    .book-btn-txt {
-        font-size: 10px;
+    .book-txt {
+        font-size: 17px;
+    }
+
+    .product-actions{
+        gap: 15px;
+    }
+
+    .product-actions img{
+        width: 51px;
+        height: 50px;
     }
 
     .book-reating {
-        width: 40px;
-        height: 20px;
+        width: 55px;
+        height: 25px;
     }
 
-    .book-reating img,
-    .sel-sec img {
-        width: 12px;
+    .book-reating img {
+        width: 17px;
+    }
+
+    .reating-txt{
+        font-size: 15px;
     }
 
     .frame2-head,
     .book-price1,
     .book-price2 {
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .frame2 p {
-        font-size: 11px;
-        line-height: 0.8rem;
+        font-weight: 600;
     }
 
-    .sel-sec {
-        gap: 0.675rem;
+    .sel-sec h6 {
+        font-size: 16px;
+    }
+
+    .btn-sec{
+        width: 150px;
+        height: 50px;
+    }
+
+    .book-btn-txt{
+        font-size: 15px;
     }
 
     .btn-sec img {
-        width: 7px;
-        height: 10px;
+        width: 10px;
+        height: 12px;
     }
 
     /* Get Education section End  */
@@ -1704,68 +1684,43 @@ footer {
         width: 90%;
     }
 
-    .row2-card {
-        row-gap: 1rem;
-    }
-
     .heart-container {
-        width: 64px;
-        height: 64px;
+        width: 70px;
+        height: 70px;
     }
 
     .heart-icon {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
     }
 
     .row2-card h3 {
-        font-size: 16px;
-    }
-
-    .row2-head,
-    .price-per-month,
-    .updates,
-    .course-btn-txt {
-        font-size: 11px;
-    }
-
-    .course-price-sec h2 {
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .row2-card p {
-        font-size: 11px;
-        font-weight: 500;
-        line-height: 24px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
     }
 
     .course-features {
         padding: 19px;
-        /* gap: 10px; */
     }
 
     .tick {
-        width: 21px;
-        height: 21px;
+        width: 25px;
+        height: 25px;
     }
 
     .tick img {
-        width: 10px;
-        height: 7px;
-    }
-
-    .course-btn {
-        width: 153px;
-        height: 35px;
-    }
-
-    .try-btn {
-        width: 108px !important;
+        width: 12px;
+        height: 10px;
     }
 
     .new-course {
-        width: 64px;
-        height: 64px;
+        width: 70px;
+        height: 70px;
         top: 2px;
         right: -7px;
     }
@@ -1779,7 +1734,7 @@ footer {
     }
 
     .teach-row2 {
-        width: 80%;
+        width: 90%;
         flex-direction: column;
         gap: 60px;
     }
@@ -1790,31 +1745,22 @@ footer {
     }
 
     .teach-pic {
-        width: 82px;
-        height: 82px;
-    }
-
-    .teach-intro {
-        gap: 10px
+        width: 85px;
+        height: 85px;
     }
 
     .teach-intro p {
-        font-size: 11px;
-        font-weight: 500;
+        font-size: 14px;
+        font-weight: 600;
         line-height: 16px;
     }
 
-    .reating img {
-        width: 18px;
-        height: 18px;
-    }
-
     .teach-intro h5 {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .teach-intro h6 {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     /* Expert instructor section End  */
@@ -1825,12 +1771,11 @@ footer {
     }
 
     .register-row1 {
-        max-width: 100%;
-        gap: 0.75rem;
+        max-width: 90%;
     }
 
     .register-row2 {
-        width: 100%;
+        width: 90%;
     }
 
     .register-email {
@@ -1841,7 +1786,7 @@ footer {
         top: 13px;
         left: 14px;
         font-size: 9px;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .submit-email {
@@ -1850,7 +1795,7 @@ footer {
 
     .submit-btn-txt {
         font-size: 9px;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     /* Registration section End  */
@@ -1859,6 +1804,8 @@ footer {
     .info-container {
         max-width: 390px;
         padding: 17px 0;
+        display: flex;
+        justify-content: center;
     }
 
     .info-row {
@@ -1867,34 +1814,17 @@ footer {
 
     .info-col {
         width: 100%;
-        align-items: center;
         margin-bottom: 30px;
         gap: 16px;
     }
 
     .info-col h5 {
-        font-size: 13px;
         letter-spacing: 0.3px;
-    }
-
-    .info-sec,
-    .in-touch {
-        align-items: center;
-    }
-
-    .info-sec-05 {
-        align-items: start;
     }
 
     .info-sec a,
     .feature-txt {
-        font-size: 11px;
         line-height: 16px;
-    }
-
-    .in-touch img {
-        width: 20px;
-        height: 20px;
     }
 
     /* Company Info section End */
@@ -1907,13 +1837,17 @@ footer {
         gap: 5px;
     }
 
-    .social-txt h6 {
-        font-size: 11px;
+    .social-txt{
+        width: 90%;
+        text-align: center;
     }
 
-    .social-links img {
-        width: 20px;
-        height: 20px;
+    .social-txt h6 {
+        font-size: 12px;
+    }
+
+    .social-links {
+        align-items: center;
     }
 
     /* footer End  */
